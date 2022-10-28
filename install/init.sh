@@ -64,7 +64,7 @@ echo -e "Created ~/.run-prompt/icon/48b\n"
 }
 
 echo -e "\nFinishing up..."
-chmod u+x ~/.run-prompt/run.sh/
+chmod u+x ~/.run-prompt/run.sh
 echo -e "Done!\n"
 echo -e "SUP-R has been installed to ~/.run-prompt/run.sh.\n"
 sleep 1s
