@@ -27,7 +27,7 @@ The program has been tested and works on the following Linux distros:
 
 ### Dependencies
 
-- <a href="https://howtoinstall.co/en/zenity" title="Tip: run 'sudo apt install zenity' to install.">`zenity`</a> or <a href="https://howtoinstall.co/en/yad" title="Tip: run 'sudo apt install yad' to install.">`yad`</a> (for GTK+ dialogs)
+- <a href="https://howtoinstall.co/en/zenity" title="Tip: run 'sudo apt install zenity' to install.">`zenity`</a> (for GTK+ dialogs)
 - <a href="https://howtoinstall.co/en/xdg-utils" title="Tip: run 'sudo apt install xdg-utils' to install.">`xdg-utils`</a> (for opening directories and files)
 - <a href="https://howtoinstall.co/en/sed" title="Tip: run 'sudo apt install sed' to install.">`sed`</a> (for identifying distro)*
 
