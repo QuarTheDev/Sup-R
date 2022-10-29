@@ -61,6 +61,7 @@ echo -e "Created ~/.run-prompt/icon/48a\n"
 echo -e "Downloading 48b.png (2.48kb)"
 curl -O -s $GET_ICONB
 echo -e "Created ~/.run-prompt/icon/48b\n"
+
 }
 
 echo -e "\nFinishing up..."
