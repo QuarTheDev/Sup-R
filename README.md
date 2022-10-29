@@ -66,7 +66,7 @@ Then select the **Set Shortcut...** button, and bind it to ❖ + R, or really an
 
 Close the run prompt completely, then run the following command in your terminal:
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/DabiaTheNord/Sup-R/main/uninstall/remv.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/DabiaTheNord/Sup-R/main/uninstall/init.sh)
 ```
 
 ### Future features
