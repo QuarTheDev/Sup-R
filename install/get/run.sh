@@ -1,10 +1,6 @@
-#!/usr/bin/env bash
-
-# Variables
+#!/bin/bash
 
 distro=$(sed -n '2p' /etc/os-release | sed 's/NAME=//' | sed 's/\"//g')
-
-# Variables
 
 while :
 do
@@ -26,7 +22,6 @@ else
 	if [[ "${input}" =~ ^~ ]]; then
 		input="${input/#~/$HOME}";
 	fi
-
 	if [ $? -eq 0 ]
 	then
 		exit
