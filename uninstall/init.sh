@@ -11,7 +11,7 @@ clear
 echo " __        __      __                       __  ___                 ___  __  "
 echo "/__\` |  | |__) __ |__)    |  | |\ | | |\ | /__\`  |   /\  |    |    |__  |__) "
 echo ".__/ \__/ |       |  \    \__/ | \| | | \| .__/  |  /~~\ |___ |___ |___ |  \ "
-echo "for $GDISTRO"
+echo "                                                                 for $GDISTRO"
 
 sleep 1s
 
@@ -29,11 +29,6 @@ echo -e "Sup-'R' will be removed."
 read -rsn1 -p "When ready, press any key to uninstall."; echo
 
 TIMEFORMAT='Deleted 5.59kb of files in %2R seconds.'
-
-if %2R == 0.00
-then
-  TIMEFORMAT='Deleted 5.59kb of files instantly.'
-fi
 
 time {
 echo -e "\nSetting up removal directory...\n"
