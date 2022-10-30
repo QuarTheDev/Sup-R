@@ -4,8 +4,6 @@ clear
 echo "Please wait..."
 
 DEP1="sed"
-DEP2="xdg-open"
-DEP3="zenity"
 GDISTRO=$(sed -n '2p' /etc/os-release | sed 's/NAME=//' | sed 's/\"//g')
 
 clear
@@ -20,9 +18,8 @@ sleep 1s
 #Dependencies check
 
 echo -e "\n\nChecking dependencies...\n"
+
 command -v $DEP1 >/dev/null || { echo -e "\n\n$DEP1 was not found, installation canceled.\n\nTry running 'sudo apt install $DEP1'." >&2; exit 1; }
-command -v $DEP2 >/dev/null || { echo -e "\n\n$DEP2 was not found, installation canceled.\n\nTry running 'sudo apt install $DEP2'." >&2; exit 1; }
-command -v $DEP3 >/dev/null || { echo -e "\n\n$DEP3 was not found, installation canceled.\n\nTry running 'sudo apt install $DEP3'." >&2; exit 1; }
 
 echo -e "OK\n"
 
@@ -32,6 +29,11 @@ echo -e "Sup-'R' will be removed."
 read -rsn1 -p "When ready, press any key to uninstall."; echo
 
 TIMEFORMAT='Deleted 5.59kb of files in %2R seconds.'
+
+if %2R == 0.00
+then
+  TIMEFORMAT='Deleted 5.59kb of files instantly.'
+fi
 
 time {
 echo -e "\nSetting up removal directory...\n"
