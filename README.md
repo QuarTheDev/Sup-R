@@ -1,3 +1,4 @@
+
 <p align="center">
 <a href="https://github.com/DabiaTheNord/Sup-R"><img src="https://raw.githubusercontent.com/DabiaTheNord/Sup-R/main/git/images/suprlogo.png"/>
 </p>
@@ -21,7 +22,8 @@ Sup-R is a play on words with Win+R and Linux's Super key. Combining the two, ul
 ### Tested Distros
 
 The program has been tested and works on the following Linux distros:
-- Ubuntu 22.10 ✅ <sub><sup> -DabiaTheNord<sup></sub>
+- Ubuntu 22.04 - 22.10 ✅ <sub><sup> -DabiaTheNord, manOnWebs<sup></sub>
+- Fedora 36 [~]<sub><sup> -DabiaTheNord<sup></sub>
 
 **ⓘ** If this program works on your distro but is not listed here, please fill out [this form](https://forms.gle/DeWfkc6V1LKjFmVY6) to both help Sup-'R' development and get credit for it!
 
@@ -77,6 +79,13 @@ In the future, I plan to work on the following features:
 - An option to create a .desktop file
 - A way to automatically assign ❖ + R to launch Sup-R
 - A `yad` port for more features (see [v1cont/yad](https://github.com/v1cont/yad))
+
+### Known Issues
+There's a small list of known issues. They are currently being worked on or investigated;
+
+- On Ubuntu, adding the script to a keybind results in only the first dialog appearing.
+- On some systems, double-brackets are interpreted as a command when ran as a standalone shell script rather than curling from GitHub.
+- On Fedora Workstation, all dialog boxes appear in a light mode regardless of user settings.
 
 ### Questions
 
