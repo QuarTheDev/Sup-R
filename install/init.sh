@@ -68,7 +68,7 @@ while true; do
 read -p "Do you want to proceed? (y/n) " yn
 
 case $yn in 
-	[yY] ) echo -e "Need sudo permissions to write in usr/share/applications, asking..."; sudo echo -e "[Desktop Entry]\nName="Run"\nVersion=$GVER\nComment="A fancy GTK run prompt."\nExec=~/.run-prompt/run.sh\nIcon=~/run-prompt/icon/48a.png\nTerminal=false\nType=Application" > usr/share/applications/run-prompt.desktop; break;;
+	[yY] ) echo -e "Need sudo permissions to write in usr/share/applications, asking..."; sudo echo -e "[Desktop Entry]\nName="Run"\nVersion=$GVER\nComment="A fancy GTK run prompt."\nExec=~/.run-prompt/run.sh\nIcon=~/run-prompt/icon/48a.png\nTerminal=false\nType=Application" > /usr/share/applications/run-prompt.desktop; break;;
 	[nN] ) break;;
 	* ) ;;
 esac
