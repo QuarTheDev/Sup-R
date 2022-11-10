@@ -33,7 +33,8 @@ TIMEFORMAT='Deleted 5.59kb of files in %2R seconds.'
 time {
 echo -e "\nSetting up removal directory...\n"
 rm -f -r ~/.run-prompt/
-rm -f -r usr/share/applications/run-prompt.desktop
+echo -e "Need sudo privileges to remove run-prompt.desktop in usr/share/applications, asking...\n"
+sudo rm -f -r usr/share/applications/run-prompt.desktop
 rm -f -r ~/Desktop/run.sh
 }
 
