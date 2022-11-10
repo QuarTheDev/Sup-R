@@ -65,17 +65,17 @@ echo -e "Created ~/.run-prompt/icon/48b\n"
 }
 
 while true; do
-read -p "Do you want to proceed? (y/n) " yn
+read -p "Do you wish to create a .desktop file? (y/n) " yn
 
-case $yn in 
-	[yY] ) echo -e "Need sudo permissions to write in usr/share/applications, asking..."; sudo echo -e "[Desktop Entry]\nName="Run"\nVersion=$GVER\nComment="A fancy GTK run prompt."\nExec=~/.run-prompt/run.sh\nIcon=~/run-prompt/icon/48a.png\nTerminal=false\nType=Application" > /usr/share/applications/run-prompt.desktop; break;;
+case $yn in
+	[yY] ) echo -e "Need sudo permissions to write in /usr/share/applications, asking..."; echo -e "[Desktop Entry]\nName=Run\nVersion=$GVER\nComment=A fancy GTK run prompt.\nExec=~/.run-prompt/run.sh\nIcon=~/run-prompt/icon/48a.png\nTerminal=false\nType=Application" > sudo /usr/share/applications/run-prompt.desktop; break;;
 	[nN] ) break;;
 	* ) ;;
 esac
 done
 
 while true; do
-read -p "Do you wish to create a .desktop file? (y/n) " yn
+read -p "Do you wish to create a symlink on the desktop? (y/n) " yn
 
 case $yn in 
 	[yY] ) ln -sf ~/.run-prompt/run.sh ~/Desktop/run.sh; break;;
