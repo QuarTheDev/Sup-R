@@ -69,7 +69,7 @@ while true; do
     case $yn in
         [Yy]* ) echo -e "Need sudo permissions to write in usr/share/applications, asking...; sudo echo -e "[Desktop Entry]\nName="Run"\nVersion=$GVER\nComment="A fancy GTK run prompt."\nExec=~/.run-prompt/run.sh\nIcon=~/run-prompt/icon/48a.png\nTerminal=false\nType=Application" > usr/share/applications/run-prompt.desktop; break;;
         [Nn]* ) break;;
-        * ) " ";;
+        * ) ;;
     esac
 done
 
@@ -78,13 +78,11 @@ while true; do
     case $yn in
         [Yy]* ) ln -sf ~/.run-prompt/run.sh ~/Desktop/run.sh; break;;
         [Nn]* ) break;;
-        * ) " ";;
+        * ) ;;
     esac
 done
 
 echo -e "\nFinishing up..."
 chmod u+x ~/.run-prompt/run.sh
 echo -e "SUP-R has been installed to ~/.run-prompt/run.sh.\n"
-sleep 1s
-echo -e "Exiting..."
 exit
