@@ -75,8 +75,6 @@ bash <(curl -sSL https://raw.githubusercontent.com/DabiaTheNord/Sup-R/main/unins
 In the future, I plan to work on the following features:
 
 - An option to hide the terminal so only the run dialog is visible
-- An option to place symlink on desktop
-- An option to create a .desktop file
 - A way to automatically assign ❖ + R to launch Sup-R
 - A `yad` port for more features (see [v1cont/yad](https://github.com/v1cont/yad))
 
