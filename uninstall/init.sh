@@ -11,7 +11,7 @@ clear
 echo " __        __      __                       __  ___                 ___  __  "
 echo "/__\` |  | |__) __ |__)    |  | |\ | | |\ | /__\`  |   /\  |    |    |__  |__) "
 echo ".__/ \__/ |       |  \    \__/ | \| | | \| .__/  |  /~~\ |___ |___ |___ |  \ "
-echo "                                                                 for $GDISTRO"
+echo "                                                                  for $GDISTRO"
 
 sleep 1s
 
@@ -33,6 +33,8 @@ TIMEFORMAT='Deleted 5.59kb of files in %2R seconds.'
 time {
 echo -e "\nSetting up removal directory...\n"
 rm -f -r ~/.run-prompt/
+rm -f -r usr/share/applications/run-prompt.desktop
+rm -f -r ~/Desktop/run.sh
 }
 
 echo -e "Done!\n"
