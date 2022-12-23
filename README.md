@@ -1,6 +1,6 @@
 
 <p align="center">
-<a href="https://github.com/DabiaTheNord/Sup-R"><img src="https://raw.githubusercontent.com/DabiaTheNord/Sup-R/main/git/images/suprlogo.png"/>
+<a href="https://github.com/QuarTheDev/Sup-R"><img src="https://raw.githubusercontent.com/QuarTheDev/Sup-R/main/git/images/suprlogo.png"/>
 </p>
 
 ***
@@ -8,7 +8,7 @@
 <h4 align="center">A beautiful GTK+ Run prompt clone built with bash.</h4>
 </center>
 <p align="center">
-<a href="https://github.com/DabiaTheNord/Sup-R"><img src="https://raw.githubusercontent.com/DabiaTheNord/Sup-R/main/git/images/preview.png"/>
+<a href="https://github.com/QuarTheDev/Sup-R"><img src="https://raw.githubusercontent.com/QuarTheDev/Sup-R/main/git/images/preview.png"/>
 </p>
 
 ---
@@ -22,8 +22,8 @@ Sup-R is a play on words with Win+R and Linux's Super key. Combining the two, ul
 ### Tested Distros
 
 The program has been tested and works on the following Linux distros:
-- Ubuntu 22.04 - 22.10 ✅ <sub><sup> -DabiaTheNord, manOnWebs<sup></sub>
-- Fedora 36 [~]<sub><sup> -DabiaTheNord<sup></sub>
+- Ubuntu 22.04 - 22.10 ✅ <sub><sup> -QuarTheDev, manOnWebs<sup></sub>
+- Fedora 36 [~]<sub><sup> -QuarTheDev<sup></sub>
 
 **ⓘ** If this program works on your distro but is not listed here, please fill out [this form](https://forms.gle/DeWfkc6V1LKjFmVY6) to both help Sup-'R' development and get credit for it!
 
@@ -44,7 +44,7 @@ The program has been tested and works on the following Linux distros:
 
 Open your terminal and enter the following command;
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/DabiaTheNord/Sup-R/main/install/init.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/QuarTheDev/Sup-R/main/install/init.sh)
 ```
 A command line will open, which will automatically retrieve essential items that it needs for installation, and will install Sup-'R' in ~/.run-prompt/.
 
@@ -68,7 +68,7 @@ Then select the **Set Shortcut...** button, and bind it to ❖ + R, or really an
 
 Close the run prompt completely, then run the following command in your terminal:
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/DabiaTheNord/Sup-R/main/uninstall/init.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/QuarTheDev/Sup-R/main/uninstall/init.sh)
 ```
 
 ### Future features
