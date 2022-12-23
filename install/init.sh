@@ -8,11 +8,11 @@ DEP1="sed"
 DEP2="xdg-open"
 DEP3="zenity"
 GDISTRO=$(sed -n '2p' /etc/os-release | sed 's/NAME=//' | sed 's/\"//g')
-GVER=$(curl -s https://raw.githubusercontent.com/DabiaTheNord/Sup-R/main/install/get/version)
-GET_MAIN=https://raw.githubusercontent.com/DabiaTheNord/Sup-R/main/install/get/run.sh
-GET_LICENSE=https://raw.githubusercontent.com/DabiaTheNord/Sup-R/main/install/get/LICENSE
-GET_ICONA=https://raw.githubusercontent.com/DabiaTheNord/Sup-R/main/install/get/icon/48a.png
-GET_ICONB=https://raw.githubusercontent.com/DabiaTheNord/Sup-R/main/install/get/icon/48b.png
+GVER=$(curl -s https://raw.githubusercontent.com/QuarTheDev/Sup-R/main/install/get/version)
+GET_MAIN=https://raw.githubusercontent.com/QuarTheDev/Sup-R/main/install/get/run.sh
+GET_LICENSE=https://raw.githubusercontent.com/QuarTheDev/Sup-R/main/install/get/LICENSE
+GET_ICONA=https://raw.githubusercontent.com/QuarTheDev/Sup-R/main/install/get/icon/48a.png
+GET_ICONB=https://raw.githubusercontent.com/QuarTheDev/Sup-R/main/install/get/icon/48b.png
 
 # Variables
 
